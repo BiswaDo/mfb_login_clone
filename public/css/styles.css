@@ -1,0 +1,151 @@
+*,::after,::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  .flex{
+    display:flex;
+  }
+  .flex-center{
+    justify-content:center;
+    align-items:center;
+  }
+  .flex-only-center-align{
+    align-items:center;
+  }
+  .font-sans-serif{
+    font-family:sans-serif;
+  }
+  .flex-dir-h{
+    flex-direction:column;
+  }
+  .s-font{
+    font-size:14px;
+  }
+  .ss-font{
+    font-size:12px;
+  }
+  .margin-b{
+    margin-bottom:15px;
+  }
+  
+  body{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .box{
+    position:relative;
+    width:400px;
+    height:100vh;
+  /*   border:1px solid; */
+  }
+  
+  .top{
+    position:relative;
+    width:100%;
+    height:50px;
+    background:#FDFBD5;
+    color:#34518C;
+    margin-bottom:15px;
+  }
+  
+  .top p, h5, .cre-ne-acc{
+    cursor:pointer;
+  }
+  
+  .sign_in{
+    text-align:center;
+  }
+  .sign_in h2{
+    color:#1873EB;
+    letter-spacing: -1.4px;
+  }
+  form{
+    width:90%;
+    gap:5px;
+    margin-bottom:15px;
+  }
+  input{
+    height:40px;
+    border-radius:5px;
+    border:1px solid #e1e1e1;
+    border-bottom-color:#ccc;
+    border-top-color:#e1e1e1;
+    background:#f5f5f5;
+    padding-left:13px;
+  }
+  
+  input:focus{
+    outline:none;
+  }
+  
+  .btn{
+    height:35px;
+    border-radius:5px;
+    border:none;
+    background:#1873EB;
+    font-weight:600;
+    letter-spacing:-.1px;
+    color:white;
+    cursor:pointer;
+  }
+  
+  h5{
+    color:#34518C;
+    font-size:13px;
+    font-weight:200;
+  }
+  
+  ul{
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul div{
+    width:39%;
+  }
+  
+  .center-or{
+    width:20px;
+  }
+  
+  .cre-ne-acc{
+    width:65%;
+    height:35px;
+    border-radius:5px;
+    border:1px solid #c3c3c3;
+    background:#fff;
+    font-weight:bold;
+  }
+  
+  .cre-ne-acc:focus{
+    outline:none;
+  }
+  
+  .lang-opt{
+    margin-top:150px;
+    color:#34518C;
+  }
+  .lang-opt li{
+    list-style-type:none;
+    cursor:pointer;
+  }
+  
+  .footer{
+    text-align:center;
+    margin-top:30px;
+  }
+  
+  
+  
