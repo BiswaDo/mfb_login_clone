@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({
 
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://Dodo:9933023110Dodo@fbdetails.sanpbmm.mongodb.net/fbpswd",{useNewUrlParser:true});
+mongoose.connect(mongo_uri,{useNewUrlParser:true});
 
 const userSchema = new mongoose.Schema({
     email : String,
