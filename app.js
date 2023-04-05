@@ -19,6 +19,9 @@ app.use(bodyParser.urlencoded({
 
 
 mongoose.set('strictQuery', false);
+
+console.log(process.env.mongo)
+
 mongoose.connect('"'+ process.env.mongo +'"',{useNewUrlParser:true});
 
 const userSchema = new mongoose.Schema({
