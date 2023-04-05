@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({
 
 
 mongoose.set('strictQuery', false);
-mongoose.connect(process.env.mongo_uri,{useNewUrlParser:true});
+mongoose.connect('"'+process.env.mongo_uri+'"',{useNewUrlParser:true});
 
 const userSchema = new mongoose.Schema({
     email : String,
